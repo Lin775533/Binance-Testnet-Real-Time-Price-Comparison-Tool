@@ -56,8 +56,8 @@ def initialize_testnet_client(time_offset: int = 0):
     """Initialize Binance Testnet client with proper configuration"""
     try:
         client = Client(
-            api_key="a8a877e475070f4daf24211ca07ddd9a95efc5aeeeae2b8bdeddb0da7740dd0b",
-            api_secret="cbd5ab54a2a619d56aa890c8d062eabe40fe61566e570a8d96d3d9511c89b081",
+            api_key="Yor_Key",
+            api_secret="Your_Secret",
             testnet=True
         )
         
