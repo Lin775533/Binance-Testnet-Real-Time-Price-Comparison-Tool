@@ -1,3 +1,14 @@
+
+### Method 1: Using Mermaid Bar Chart
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#8884d8', 'secondaryColor': '#82ca9d', 'tertiaryColor': '#ffc658'}}}%%
+barchart
+    title Performance Metrics by Mode
+    "No Detection" 30 "FPS" 33 "Latency (ms)" 15 "CPU Usage (%)"
+    "Face Detection" 25 "FPS" 40 "Latency (ms)" 35 "CPU Usage (%)"
+    "Detection + Recording" 22 "FPS" 45 "Latency (ms)" 45 "CPU Usage (%)"
+```
+
 # Binance Testnet Real-Time Price Comparison Tool
 
 ## Overview
